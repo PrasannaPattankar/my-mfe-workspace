@@ -1,6 +1,4 @@
-import { ModuleFederationConfig } from '@nx/rspack/module-federation';
-
-const config: ModuleFederationConfig = {
+const config = {
   name: 'app2',
 
   exposes: {
