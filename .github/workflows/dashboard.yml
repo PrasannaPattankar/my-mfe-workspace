@@ -23,5 +23,8 @@ jobs:
       - name: Install dependencies
         run: npm install
 
+      - name: Install Nx CLI
+        run: npm install -g nx
+
       - name: Build dashboard
         run: npx nx build dashboard

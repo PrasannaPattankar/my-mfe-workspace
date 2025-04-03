@@ -8,7 +8,7 @@ const App2 = React.lazy(() => import('app2/Module'));
 export function App() {
   return (
     <BrowserRouter>
-      <React.Suspense fallback={<div>Loading....</div>}>
+      <React.Suspense fallback={<div>Loading.....</div>}>
         <ul>
           <li>
             <Link to="/">Home</Link>
