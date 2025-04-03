@@ -9,6 +9,7 @@ export function App() {
       <NxWelcome title="app1" />
 
       
+      
     </div>
   );
 }
